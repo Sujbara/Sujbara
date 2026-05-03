@@ -60,6 +60,26 @@ I'm a **AI-first Software Engineer** with experience in AI, full-stack, and clou
 
 ## 🚀 Featured Projects
 
+### 🧠 [Notion RAG chatbot](http://github.com/Sujbara/Notion-RAG-chatbot)
+> A private, agentic RAG pipeline that transforms personal Notion workspaces into searchable, interactive knowledge bases — built with a local-first privacy architecture.
+
+| Feature | Detail |
+|---|---|
+| **Frontend** | Next.js (App Router) |
+| **Backend**	| FastAPI / Python |
+| **RAG Engine** | LlamaIndex / ChromaDB |
+| **Intelligence** | Local (Ollama) & Cloud (Gemini) |
+| **Goal** | An intelligent system to help me retrieve information intelligently from a 2000+ min of information |
+
+**Key capabilities:**
+- Hybrid Inference Engine: Implements a provider-agnostic LLM interface that toggles between local-first privacy (Ollama/Gemma) and high-reasoning cloud models (Gemini 2.0 Flash) based on query complexity.
+- Dual-Mode Response Pipeline: Features an autonomous "Thinking Mode" using LlamaIndex AgentWorkflow for multi-step reasoning, alongside a "Fast Mode" optimized for millisecond-latency direct vector retrieval.
+- Deep-Link Document Ingestion: Custom Python parsers that navigate Notion's nested block structure and extract data from attached .ipynb notebooks, converting unstructured research into high-density embeddings.
+- Optimized Vector Persistence: ChromaDB integration with MD5-based file hashing, ensuring the local knowledge base only re-indexes when source content actually changes—drastically reducing compute overhead for large workspaces.
+- Real-time Agentic Streaming: Stateful Next.js frontend connected via WebSockets to visualize the agent's internal "event stream," showing exactly what the AI is thinking or searching before it delivers the final answer.
+
+[![Notion RAG chatbot Repo](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sujbara/Notion-RAG-chatbot)
+
 ### 🍣 Tagushi
 
 > A sushi menu website built around a realistic local-business use case — treated as a live product with a full deployment pipeline.

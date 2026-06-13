@@ -60,6 +60,31 @@ I'm a **AI-first Software Engineer** with experience in AI, full-stack, and clou
 
 ## 🚀 Featured Projects
 
+### 🤖 JobCrew — Multi-Agent Application Platform
+
+> A production-grade multi-agent AI platform that orchestrates a crew of specialized agents on AWS Bedrock to tailor resumes, optimize profiles, and prepare interview materials — deployed with full infrastructure-as-code and zero-trust networking.
+
+| Feature | Detail |
+|---|---|
+| **Orchestration** | LangGraph (5 specialized agents) |
+| **AI Backend** | AWS Bedrock (LLM + Embeddings) |
+| **Infrastructure** | Terraform / AWS (ECR, S3, IAM, SSM) |
+| **CI/CD** | GitHub Actions (auto build + deploy) |
+| **Networking** | Cloudflare Tunnel (zero open ports) |
+| **RAG** | ChromaDB with semantic resume search |
+| **Security** | Prompt injection detection, rate limiting, PII sanitization, audit logging |
+| **Goal** | Replace black-box AI chat with transparent, multi-agent job application tailoring |
+
+**Key capabilities:**
+- Orchestrated five specialized AI agents (Researcher, Validator, Profiler, Resume Strategist, Interview Preparer) using LangGraph — agents execute in a dependency-aware directed graph with real-time WebSocket and SSE streaming so users watch the workflow unfold.
+- Built entirely on AWS Bedrock for both LLM inference and semantic embeddings — enabling grounded, hallucination-resistant resume tailoring through a ChromaDB vector store with RAG retrieval.
+- Full infrastructure defined as code with Terraform — single apply provisions all cloud resources including container registries, storage, IAM roles with least-privilege Bedrock permissions, secret management, and centralized logging.
+- Zero-trust networking with Cloudflare Tunnel — no public ports exposed on the server; all traffic routes through Cloudflare's edge with automatic HTTPS and DDoS protection.
+- Automated CI/CD pipeline via GitHub Actions — Terraform provisions infrastructure, Docker images are built and pushed, then the application deploys remotely with zero manual steps.
+- Enterprise-grade security guardrails including prompt injection detection (16 attack patterns), request rate limiting, PII sanitization, input validation, and structured audit logging to CloudWatch for full observability.
+
+[![Request Access](https://img.shields.io/badge/Request%20Access-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Suhaib.Jbara@gmail.com?subject=Access%20request%20for%20JobCrew%20platform&body=Hi%20Suhaib%2C%0D%0A%0D%0AI%20came%20across%20your%20JobCrew%20multi-agent%20platform%20and%20would%20love%20to%20see%20a%20demo%20or%20get%20access.%20Please%20let%20me%20know%20if%20that's%20possible.%0D%0A%0D%0AThanks!)
+
 ### 🧠 [Notion RAG chatbot](http://github.com/Sujbara/Notion-RAG-chatbot)
 > A private, agentic RAG pipeline that transforms personal Notion workspaces into searchable, interactive knowledge bases — built with a local-first privacy architecture.
 

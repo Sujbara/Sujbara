@@ -60,7 +60,7 @@ I'm a **AI-first Software Engineer** with experience in AI, full-stack, and clou
 
 ## 🚀 Featured Projects
 
-### 🤖 JobCrew — Multi-Agent Application Platform
+### [🤖 JobCrew — Multi-Agent Application Platform](https://jobcrew.xyz)
 
 > A production-grade multi-agent AI platform that orchestrates a crew of specialized agents on AWS Bedrock to tailor resumes, optimize profiles, and prepare interview materials — deployed with full infrastructure-as-code and zero-trust networking.
 
@@ -83,7 +83,7 @@ I'm a **AI-first Software Engineer** with experience in AI, full-stack, and clou
 - Automated CI/CD pipeline via GitHub Actions — Terraform provisions infrastructure, Docker images are built and pushed, then the application deploys remotely with zero manual steps.
 - Enterprise-grade security guardrails including prompt injection detection (16 attack patterns), request rate limiting, PII sanitization, input validation, and structured audit logging to CloudWatch for full observability.
 
-[![Request Access](https://img.shields.io/badge/Request%20Access-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Suhaib.Jbara@gmail.com?subject=Access%20request%20for%20JobCrew%20platform&body=Hi%20Suhaib%2C%0D%0A%0D%0AI%20came%20across%20your%20JobCrew%20multi-agent%20platform%20and%20would%20love%20to%20see%20a%20demo%20or%20get%20access.%20Please%20let%20me%20know%20if%20that's%20possible.%0D%0A%0D%0AThanks!)
+🌐 [JobCrew](https://jobcrew.xyz)
 
 ### 🧠 [Notion RAG chatbot](http://github.com/Sujbara/Notion-RAG-chatbot)
 > A private, agentic RAG pipeline that transforms personal Notion workspaces into searchable, interactive knowledge bases — built with a local-first privacy architecture.
@@ -122,6 +122,27 @@ I'm a **AI-first Software Engineer** with experience in AI, full-stack, and clou
 - Asset pipeline split across two independent CI/CD workflows: app code deploys to Cloudflare Workers on every push, while images and menu data upload to R2 only when those files actually change.
 - Infrastructure defined entirely in code — Wrangler config, GitHub Actions, and environment-aware Angular builds that swap between local assets and R2 CDN automatically at build time.
 - Served from Cloudflare's 330+ edge locations globally with zero origin server, zero database, and zero monthly cost — not a free tier that expires, permanently free by architecture.
+
+### 🌐 [Portfolio Website](https://suhaibjbara.online)
+
+> A personal portfolio built with Next.js 16 featuring interactive particle animations, glassmorphism, and a fully data-driven project system — deployed on Cloudflare with zero server cost.
+
+| Feature | Detail |
+|---|---|
+| **Framework** | Next.js 16 (App Router + Turbopack) |
+| **Styling** | Tailwind CSS v4 with glassmorphism |
+| **Animation** | Custom Canvas particle system + 3D card tilt |
+| **CI/CD** | GitHub Actions (auto build + deploy) |
+| **Deployment** | Cloudflare Workers (330+ edge locations) |
+| **Goal** | Showcase projects with an engaging, interactive experience |
+
+**Key capabilities:**
+- Custom particle canvas animation with dynamic connection lines that react to nearby particles in real-time.
+- Pointer-reactive 3D perspective tilt on the profile card using mouse position tracking.
+- Fully data-driven architecture — add or modify projects by editing a single TypeScript file; all components read from the same source.
+- Zero-cost edge deployment via Cloudflare Workers with automated CI/CD through GitHub Actions.
+- Category-filtered project grid with scroll-in animations and responsive multi-column layouts.
+- Built with Next.js 16 and Turbopack for instant HMR during development and optimized production builds.
 
 ### 🚦 [QTPS — Qatar Traffic Prediction System](https://github.com/Sujbara/QTPS-Qatar-Traffic-Prediction-System)
 

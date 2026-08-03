@@ -10,7 +10,6 @@
 
 I'm a **AI-first Software Engineer** with experience in AI, full-stack, and cloud. Skilled in Python, TypeScript, NextJS, React Native, SQL, REST APIs, Gen AI, RAG, AI Agents, Docker, AWS, Cloudflare, Infrastructure as Code (IaC), and Continuous Integration and Continuous Delivery (CI/CD). Strong foundation in computer science with hands-on industry experience and translating problems into software solutions.
 
-- 🔭 **Currently working on:** Notion Notes Chatbot, a AI bot to retrieve and summarize my notes from Notion.
 - 🌱 **Currently learning:** Building AI systems and deployment.
 - 👯 **Looking to collaborate on:** Open-source projects in AI systems and full-stack web development.
 - 💬 **Ask me about:** AI applications, TypeScript/Python development, REST APIs, and Cloud deployment.
@@ -59,6 +58,146 @@ I'm a **AI-first Software Engineer** with experience in AI, full-stack, and clou
 ---
 
 ## 🚀 Featured Projects
+
+### AI Customer Service Agent
+
+> **CONFIDENTIAL** — Proprietary work built for **Zetheta Algorithms Private Limited**.
+> This repository is private. No code or internal implementation is shared in this public surface.
+> This README intentionally contains only the project title and a high-level task/value description.
+
+**What it is**
+
+An AI customer-service platform designed for a digital bank that automates first-line support — with built-in safety and compliance guards, human escalation, and live operator analytics.
+
+**The business problem**
+
+A digital bank handling tens of thousands of daily customer interactions through outsourced agents faced slow first responses, high escalation rates, and rising support costs. The goal was to automate a large share of first-line support while guaranteeing the AI never gives incorrect financial advice and stays fully compliant.
+
+**What it does (high level)**
+
+- Understands customer intent, entities, and sentiment in natural language.
+- Answers questions from a continuously updated knowledge base.
+- Enforces strict safety and compliance boundaries on every reply.
+- Escalates critical cases to human experts with clear routing.
+- Learns continuously from supervisor feedback.
+- Surfaces everything on live operator dashboards — with **no fabricated metrics**.
+
+**Business impact (design targets)**
+
+- Automate ~60% of first-line support within 18 months.
+- Cut first-response time from ~2 minutes to under 5 seconds.
+- Lift containment from ~35% to 70%+.
+- Reduce escalation below 30%.
+- Hold incorrect financial advice at 0%.
+- Target over $47.9 million USD per year in support-cost savings.
+
+**What was validated**
+
+- 500+ automated tests across the safety and support pipeline.
+- Documented runs showing prompt-injection and jailbreak attempts blocked at 0.94–0.97 confidence.
+- Measurable sentiment recovery (angry → neutral) in a complaint conversation.
+- 6 annotated end-to-end scenarios including fraud escalation and multi-language support handling.
+
+**Stack (internal)**
+
+Python · TypeScript · async REST/WebSocket services · local LLM inference · retrieval-augmented knowledge base · React operator dashboard. Full architecture kept internal.
+
+**Status**
+
+Production-style implementation with live dashboards and a full simulation suite. Detailed metrics and demonstration available under NDA.
+
+### Compliance Monitoring System
+
+> **CONFIDENTIAL** — Proprietary work built for **Zetheta Algorithms Private Limited**.
+> This repository is private. No code or internal implementation is shared in this public surface.
+> This README intentionally contains only the project title and a high-level task/value description.
+
+**What it is**
+
+An agentic AI compliance-monitoring platform that continuously surveils a financial institution's trading and communications activity — detecting, escalating, and documenting regulatory violations in real time.
+
+**The business problem**
+
+Regulatory non-compliance carries fines, examination censure, and reputational damage. Manual surveillance does not scale to millions of daily transactions, and legacy rule engines either miss violations or drown analysts in false alarms. The system needed to catch real risk, minimize alert noise, and produce audit-ready evidence.
+
+**What it does (high level)**
+
+- Orchestrates specialized AI agents across surveillance domains (trading, lending, communications).
+- Flags market abuse, AML structuring, sanctions exposure, and off-channel communications.
+- Reconciles conflicting signals through structured consensus and tiered, role-based human escalation.
+- Maintains a tamper-evident, jurisdiction-aware audit trail.
+- Designed to handle ~2.4M transactions and ~850K communications daily across 23 regulatory bodies in 12 countries.
+
+**Business impact (validated)**
+
+- 100% coverage across 20 regulatory scenarios (incl. insider trading, AML structuring, sanctions evasion, wash trading).
+- Zero false alerts on a legitimate high-volume trade case (target false-positive rate < 5%).
+- Sub-500ms detection latency on trade alerts; coordinated multi-signal cases flagged in under 2 minutes.
+- SLA-based escalation: CRITICAL ~30s, HIGH ~5min, MEDIUM ~30min.
+
+> Note: operational scale figures are design targets from the system specification; scenario coverage and false-alert results are validated test runs.
+
+**What was validated**
+
+- 20 end-to-end scenario trace-throughs with 44 automated tests.
+- A consensus algorithm with documented per-agent precision weights and a human-override path.
+- Load-test harness and observability dashboards for production monitoring.
+
+**Stack (internal)**
+
+Python · FastAPI · React dashboard · message-based agent architecture · PostgreSQL · Grafana observability · Docker · CI/CD. Full architecture kept internal.
+
+**Status**
+
+Complete end-to-end implementation validated across the full scenario suite. Detailed metrics and demonstration available under NDA.
+
+### WealthPilot AI — Autonomous Portfolio Rebalancing Agent
+
+> **CONFIDENTIAL** — Proprietary work built for **Zetheta Algorithms Private Limited**.
+> This repository is private. No code or internal implementation is shared in this public surface.
+> This README intentionally contains only the project title and a high-level task/value description.
+
+**What it is**
+
+An autonomous, multi-agent system that rebalances investment portfolios at scale — combining risk, tax, and regulatory checks with a clear, human-readable explanation for every decision.
+
+**The business problem**
+
+A wealth-management engagement managed tens of thousands of client portfolios through manual, calendar-based rebalancing. Portfolios drifted silently from target allocations, generating excess trading costs, tax inefficiency, and compliance risk — and no human team could review every trade.
+
+**What it does (high level)**
+
+- Continuously monitors portfolios for drift from target allocations.
+- Generates optimized, tax-aware rebalance plans.
+- Validates every plan against risk and regulatory constraints before execution.
+- Routes anything unusual to a human approval queue.
+- Produces three audiences of explanations: plain language for clients, quantitative detail for advisors, audit-grade records for regulators.
+- Keeps an immutable, tamper-evident audit trail.
+
+**Business impact (simulated vs. legacy calendar rebalancing, 2019–2024)**
+
+- ~1/3 lower trading volume and transaction costs.
+- More than half the average portfolio drift (6.3% → 2.9%).
+- ~1/4 reduction in tax paid.
+- Improved risk-adjusted returns (Sharpe 0.48 → 0.72), including better downside behavior during the 2020 crash.
+- Scales to 50,000 portfolios with sub-30-second full scans.
+
+> Note: impact figures above are from simulation/seed runs used to demonstrate the pipeline, not audited production results.
+
+**What was validated**
+
+- 248 automated tests across agents, optimization, tax, compliance, and explanation modules.
+- A compliance scorecard grading every decision for accuracy, completeness, readability, actionability, and regulatory sufficiency.
+- Numeric-consistency checks that catch hallucinated figures before they reach a client.
+- Full backtesting engine across crash, rate-hike, bull, and full-cycle market periods.
+
+**Stack (internal)**
+
+Python · FastAPI · Next.js/React dashboards · modern optimization libraries · LLM-assisted explanations · CI/CD. Full architecture kept internal.
+
+**Status**
+
+End-to-end working pipeline with a 7-page dashboard and backtesting engine. Detailed metrics and demonstration available under NDA.
 
 ### [🤖 JobCrew — Multi-Agent Application Platform](https://jobcrew.xyz)
 

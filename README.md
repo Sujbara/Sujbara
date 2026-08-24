@@ -8,7 +8,7 @@
 
 ## 🙋 About Me
 
-I'm a **AI-first Software Engineer** with experience in AI, full-stack, and cloud. Skilled in Python, TypeScript, NextJS, React Native, SQL, REST APIs, Gen AI, RAG, AI Agents, Docker, AWS, Cloudflare, Infrastructure as Code (IaC), and Continuous Integration and Continuous Delivery (CI/CD). Strong foundation in computer science with hands-on industry experience and translating problems into software solutions.
+**I build production-oriented AI applications, agentic systems, RAG pipelines, full-stack products, and cloud deployment workflows. I work across product understanding, backend APIs, frontend delivery, infrastructure, CI/CD, observability, and stakeholder-facing execution.**
 
 - 🌱 **Currently learning:** Building AI systems and deployment.
 - 👯 **Looking to collaborate on:** Open-source projects in AI systems and full-stack web development.

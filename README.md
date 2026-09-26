@@ -335,22 +335,6 @@ End-to-end working pipeline with a 7-page dashboard and backtesting engine. Deta
   </tbody>
 </table>
 
-### 🎯 Certification Roadmap
-
-<div align="center">
-  <p>Building the cloud engineering stack — systematically.</p>
-</div>
-
-| Target | Certification | Timeline | Focus |
-|--------|---------------|----------|-------|
-| ✅ | AWS Cloud Practitioner | Sep 2026 | Cloud fundamentals, billing, security basics |
-| 🔄 | AWS Solutions Architect Associate | Q4 2026 | Designing resilient, cost-optimized architectures |
-| 📋 | AWS Developer Associate | Q1 2027 | Serverless, containers, CI/CD on AWS |
-| 📋 | AWS DevOps Engineer Professional | 2027 | Automation, observability, IaC at scale |
-| 📋 | Terraform Associate | 2027 | Infrastructure as Code mastery |
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">

@@ -328,7 +328,7 @@ End-to-end working pipeline with a 7-page dashboard and backtesting engine. Deta
       <td align="center"><strong>AWS Cloud Practitioner</strong></td>
       <td align="center">Amazon Web Services</td>
       <td align="center">September 2026</td>
-      <td align="center"><a href="https://www.credly.com/badges/your-badge-id" target="_blank"><img src="https://img.shields.io/badge/Verify-Credly-FF9900?style=for-the-badge&logo=aws&logoColor=white" alt="Verify on Credly"/></a></td>
+      <td align="center"><a href="https://www.credly.com/badges/0d68f661-c646-401b-a062-9d582504d9d1/public_url" target="_blank"><img src="https://img.shields.io/badge/Verify-Credly-FF9900?style=for-the-badge&logo=aws&logoColor=white" alt="Verify on Credly"/></a></td>
       <td align="center">Cloud Concepts, Security, Architecture, Pricing, Support</td>
     </tr>
     <!-- Future certifications will be added here -->

@@ -285,6 +285,8 @@ End-to-end working pipeline with a 7-page dashboard and backtesting engine. Deta
 
 ### 🚦 [QTPS — Qatar Traffic Prediction System](https://github.com/Sujbara/QTPS-Qatar-Traffic-Prediction-System)
 
+>
+
 > Revolutionizing travel planning in Qatar through ML-powered traffic forecasting.
 
 | Feature | Detail |
@@ -302,6 +304,50 @@ End-to-end working pipeline with a 7-page dashboard and backtesting engine. Deta
 - 🏁 Recommend the fastest route between two points in Qatar
 
 [![QTPS Repo](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sujbara/QTPS-Qatar-Traffic-Prediction-System)
+
+---
+
+## 🏆 Certifications
+
+<div align="center">
+  <p>Validating the cloud engineering journey — one credential at a time.</p>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Certification</th>
+      <th align="center">Issuer</th>
+      <th align="center">Date</th>
+      <th align="center">Verify</th>
+      <th align="center">Skills Validated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>AWS Cloud Practitioner</strong></td>
+      <td align="center">Amazon Web Services</td>
+      <td align="center">September 2026</td>
+      <td align="center"><a href="https://www.credly.com/badges/your-badge-id" target="_blank"><img src="https://img.shields.io/badge/Verify-Credly-FF9900?style=for-the-badge&logo=aws&logoColor=white" alt="Verify on Credly"/></a></td>
+      <td align="center">Cloud Concepts, Security, Architecture, Pricing, Support</td>
+    </tr>
+    <!-- Future certifications will be added here -->
+  </tbody>
+</table>
+
+### 🎯 Certification Roadmap
+
+<div align="center">
+  <p>Building the cloud engineering stack — systematically.</p>
+</div>
+
+| Target | Certification | Timeline | Focus |
+|--------|---------------|----------|-------|
+| ✅ | AWS Cloud Practitioner | Sep 2026 | Cloud fundamentals, billing, security basics |
+| 🔄 | AWS Solutions Architect Associate | Q4 2026 | Designing resilient, cost-optimized architectures |
+| 📋 | AWS Developer Associate | Q1 2027 | Serverless, containers, CI/CD on AWS |
+| 📋 | AWS DevOps Engineer Professional | 2027 | Automation, observability, IaC at scale |
+| 📋 | Terraform Associate | 2027 | Infrastructure as Code mastery |
 
 ---
 
